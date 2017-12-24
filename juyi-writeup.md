@@ -41,13 +41,12 @@ My pipeline consisted of 5 steps:
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when it uses straight line to detect or mask curve lane.
+One potential shortcoming would be misalignment for curve lane tracking with straight line mask.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to use B-Snake to do Lane detection and tracking.
+A possible improvement would be to use B-Snake for Lane detection and tracking.
 
 * Paper:   Lane detection and tracking using B-Snake
 * authors: Yue Wang, Eam Khwang Teoh, Dinggang Shen
