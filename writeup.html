@@ -25,10 +25,6 @@ Step 3. Apply Canny edge detection <br>
 Step 4. Use mask to reduce unnessary edges <br>
 Step 5. Apply Hough Transform <br>
 
-[image1]: ./result_image/01_edge.png      "Edges"
-[image1]: ./result_image/02_line_edge.png "Line Edges"
-[image1]: ./result_image/03_out_image.png "Output Image"
-
 <img src="result_image/01_edge.png" width="480" alt="Edges" /><br>
 <img src="result_image/02_line_edge.png" width="480" alt="Line Edges" /><br>
 <img src="result_image/03_out_image.png" width="480" alt="Output Image" /><br>
@@ -50,13 +46,13 @@ Step 5. Apply Hough Transform <br>
 ### 2. Identify potential shortcomings with your current pipeline
 </h2><br>
 
-One potential shortcoming would be what would happen when it uses straight line to detect or mask curve lane.
-
+One potential shortcoming would be misalignment for curve lane tracking with straight line mask.
+    
 <h2>
 ### 3. Suggest possible improvements to your pipeline
 </h2>
     
-A possible improvement would be to use B-Snake to do Lane detection and tracking.<br>
+A possible improvement would be to use B-Snake for Lane detection and tracking.<br>
 
 Paper:   <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.6644&rep=rep1&type=pdf">Lane detection and tracking using B-Snake</a><br>
 authors: Yue Wang, Eam Khwang Teoh, Dinggang Shen<br>
